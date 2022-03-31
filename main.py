@@ -2,7 +2,7 @@ import numpy as np
 from pprint import pprint
 import pandas as pd
 from matplotlib import pyplot as plt
-from patsy import dmatrices
+from patsy.highlevel import dmatrices
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
